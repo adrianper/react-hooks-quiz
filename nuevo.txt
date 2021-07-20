@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 Este es un archivo nuevo
+=======
+Este es un archivo nuevo
+
+editado
+>>>>>>> 7920ab3d6ac6f14cb5a70504c8b21a1f80e80785
