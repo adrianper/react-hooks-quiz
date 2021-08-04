@@ -10,20 +10,6 @@
 
 import React from 'react'
 
-const Counter = () => {
-
-    return (
-        <div style={styles.container}>
-            <h3 style={{...styles.resetButton}}>Counter</h3>
-
-            <button>+</button>
-            <span style={styles.count}>0</span>
-            <button>-</button>
-
-            <button style={styles.resetButton}>Reset</button>
-        </div>
-    )
-}
 
 const styles = {
     container: {
@@ -38,6 +24,21 @@ const styles = {
         alignSelf: 'center',
         justifySelf: 'center'
     }
+}
+
+const Counter = () => {
+
+    return (
+        <div style={styles.container}>
+            <h3 style={{...styles.resetButton}}>Counter</h3>
+
+            <button>+</button>
+            <span style={styles.count}>0</span>
+            <button>-</button>
+
+            <button style={styles.resetButton}>Reset</button>
+        </div>
+    )
 }
 
 export default Counter;

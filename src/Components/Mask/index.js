@@ -6,18 +6,6 @@
 */
 import React, { useState } from 'react'
 
-const Mask = () => {
-
-    const [isOpen] = useState(false)
-
-    if(!isOpen) {
-        return null
-    }
-
-    return (
-        <div style={styles.container} />
-    )
-}
 
 const styles = {
     size: {
@@ -36,6 +24,19 @@ const styles = {
         left: 0,
         background: '#000000aa'
     }
+}
+
+const Mask = () => {
+
+    const [isOpen] = useState(false)
+
+    if(!isOpen) {
+        return null
+    }
+
+    return (
+        <div style={styles.container} />
+    )
 }
 
 export default Mask
